@@ -9,7 +9,7 @@ p {
 .btn {
   font-family: $font-text;
   font-size: 16px;
-  background: transparent;
+  background: #f0932b;
   border: none;
  }
  
@@ -28,5 +28,9 @@ p {
 }
 
 .masthead-brand {
-    color: #f0932b;
+  color: #f0932b;
+}
+
+nav a {
+  color: #2f3542;
 }

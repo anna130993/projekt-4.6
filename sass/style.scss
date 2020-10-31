@@ -1,12 +1,9 @@
-$font-header: 'Playfair Display', serif;
-$font-text: 'Merriweather', serif;
-
 h5, h4, h3, h2, h1 {    
-  font-family: $font-header;   
+  font-family: 'Playfair Display', serif;   
  }
 
 p {
-  font-family: $font-text;   
+  font-family: 'Merriweather', serif;   
  }
  
 .btn {
@@ -28,4 +25,8 @@ p {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.masthead-brand {
+    color: #f0932b;
 }

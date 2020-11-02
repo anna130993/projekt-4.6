@@ -1,5 +1,21 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+ }
+
 body {
   margin: 0;
+}
+
+section {
+  margin: 0 auto;
+  padding: 96px 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+  max-width: 1140px;
 }
 
 h5, h4, h3, h2, h1 {    
@@ -33,9 +49,19 @@ p {
 
 .masthead-brand {
   color: #f0932b;
+  font-size: 50px;
 }
 
 nav a {
-  color: #fff;
+  color: #303952;
+  font-weight: bold;
 }
 
+.footer i {
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  color:#f0932b;
+}
